@@ -29,3 +29,4 @@ WHERE （FROM_UNIXTIME(UNIX_TIMESTAMP(T.ALLOT_PLN_DAY, 'yyyy-MM-dd HH:mm:sss'), '
 	PROJ_ID = ''
 	TRANSPORTMODE_ID = '' 
 --如果算启票到分配的平均时长，限定只需限定ALLOT_PLN_DAY，用（ALLOT_PLN_DAY-EARLY_PICKUP_DATE）的时间差之和/记录行数
+yes
